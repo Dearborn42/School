@@ -56,10 +56,7 @@
 //                 }
 //             }
 //         }
-//     }   
+//     }
 // }
 
 // // crackPass();
-
-let openurl = require('openurl').open;
-openurl("https://studentvue.guhsdaz.org/PXP2_Login_Student.aspx?regenerateSessionId=True");
