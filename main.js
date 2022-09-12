@@ -56,5 +56,5 @@
 // crackUser(); 
 
 function open(){
-    window.open("https://www.w3schools.com");
+    window.open("https://studentvue.guhsdaz.org/");
 }
