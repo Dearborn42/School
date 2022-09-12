@@ -56,5 +56,5 @@
 // crackUser(); 
 
 function open(){
-    window.open("https://studentvue.guhsdaz.org/");
+    window.open("https://studentvue.guhsdaz.org/", '_blank');
 }
