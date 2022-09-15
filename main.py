@@ -20,8 +20,17 @@ count = 0
 driver = uc.Chrome(use_subprocess=True)
 url = "https://studentvue.guhsdaz.org/PXP2_Login_Student.aspx?regenerateSessionId=True"
 filename = "accounts.json"
-lines = open('words.txt', 'r')
-emails = open('emails.txt', 'r')
+
+username = 's'
+password = 'x'
+
+
+driver.find_element(
+    By.ID, "ct100MainContent$username").send_keys(f'{username}')
+driver.find_element(
+    By.NAME, "ct100MainContent$password").send_keys(f'{password}')
+input()
+driver.quit()
 
 
 def crackUser():
